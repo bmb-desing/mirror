@@ -1,0 +1,62 @@
+@import "setting/index"
+@import "mixins/index"
+@import "header/header"
+@import "fonts"
+*
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+body
+  font-size: 16px
+  line-height: 1.5
+  min-width: 320px
+  padding: 0
+  margin: 0
+  overflow-x: hidden
+  font-family: Arimo, sans-serif
+  font-weight: 400
+  font-style: normal
+@import "content"
+@import "posts/index"
+@import "posts/article"
+@import "paginator"
+@import "rating"
+@import "sidebar"
+@import "comment"
+@import "form"
+.search
+  padding-bottom: 20px
+  +fz(18)
+.input__search
+  display: inline-block
+  position: relative
+  input
+    height: 30px
+    line-height: 30px
+    +fz(18)
+    outline: none
+  button
+    position: absolute
+    right: 0
+    top: 0
+    bottom: 0
+    background-color: transparent
+    border: none
+    cursor: pointer
+    outline: none
+    +fz(19)
+    i
+      color: #675f53
+@media screen and (max-width: 480px)
+  .input__search
+    max-width: 300px
+    width: 100%
+
+    display: block
+    margin: 0 auto
+    margin-bottom: 20px
+    text-align: center
+    input
+      width: 100%
+@import "error"
+@import "footer"

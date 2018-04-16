@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="01628a2b-06c1-40d7-86e8-2559e517f779" name="mirror-front" url="http://xolmsb8e.beget.tech">
+        <fileTransfer host="xolmsb8e.beget.tech" port="22" rootFolder="/home/x/xolmsb8e/mirror-universe.ru/public_html" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
